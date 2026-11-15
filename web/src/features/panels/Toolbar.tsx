@@ -25,7 +25,7 @@ const FILTERS: Array<{ type: string; icon: IconDefinition; label: string }> = [
 
 const filterButton = (active: boolean) =>
   cn(
-    "flex h-[3.2vh] min-w-[3.2vh] shrink-0 items-center justify-center gap-[0.7vh] rounded-[0.4vh] border-[0.1vh] text-[1.3vh] transition-[background-color,border-color,color] duration-150 active:scale-94",
+    "flex h-[3.2vh] min-w-[3.2vh] shrink-0 items-center justify-center gap-[0.7vh] rounded-[0.4vh] border-[0.1vh] text-[1.3vh] transition-[background-color,border-color,color,scale] duration-150 active:scale-94",
     active
       ? "border-tgi-green-40 bg-tgi-green-10 text-tgi-green"
       : "border-white/10 bg-white/4 text-text-3 hover:border-white/30 hover:text-white",

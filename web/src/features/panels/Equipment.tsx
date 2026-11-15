@@ -91,7 +91,7 @@ function PedArea() {
       <button
         type="button"
         onClick={toggle}
-        className="flex items-center gap-[0.6vh] rounded-[0.2vh] border-[0.1vh] border-white/12 bg-[rgba(16,16,16,0.86)] px-[1vh] py-[0.5vh] text-[1.1vh] font-semibold text-white/60 uppercase transition-colors duration-150 hover:border-white/30 hover:text-white active:scale-97"
+        className="flex items-center gap-[0.6vh] rounded-[0.2vh] border-[0.1vh] border-white/12 bg-[rgba(16,16,16,0.86)] px-[1vh] py-[0.5vh] text-[1.1vh] font-semibold text-white/60 uppercase transition duration-150 hover:border-white/30 hover:text-white active:scale-97"
       >
         <FontAwesomeIcon icon={shown ? faEyeSlash : faEye} />
         {t(shown ? "UI_PED_HIDE" : "UI_PED_SHOW")}
@@ -124,7 +124,7 @@ function ClothesSlot({ id }: { id: ClothesId }) {
       onClick={() => toggleClothes(id)}
       title={t(worn ? "UI_CLOTHES_OFF" : "UI_CLOTHES_ON")}
       className={cn(
-        "group relative flex shrink-0 items-center justify-center rounded-[0.2vh] border-[0.1vh] transition-[background-color,border-color,opacity] duration-150 enabled:active:scale-95 disabled:cursor-default",
+        "group relative flex shrink-0 items-center justify-center rounded-[0.2vh] border-[0.1vh] transition-[background-color,border-color,opacity,scale] duration-150 enabled:active:scale-95 disabled:cursor-default",
         worn
           ? "border-tgi-green-40 bg-tgi-green-10 enabled:hover:bg-tgi-green-15"
           : "border-white/12 bg-[rgba(16,16,16,0.86)] enabled:hover:border-white/30",
