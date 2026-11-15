@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.6.1](https://github.com/aifivem/ai-inventory/compare/v0.6.0...v0.6.1) (2026-11-15)
+
+
+### Bug Fixes
+
+* **web:** presses ease again, transition lists name the scale property the split utilities animate ([59d75d5](https://github.com/aifivem/ai-inventory/commit/59d75d590bb3e0df6afbab41b086cb93d6be7475))
+
+
+### Code Refactoring
+
+* **web:** individual translate / scale / rotate utilities instead of arbitrary transforms (CEF 144) ([6861a69](https://github.com/aifivem/ai-inventory/commit/6861a6993c7f794d07c00ec3d27642e9688d0ae4))
+
 ## [0.6.0](https://github.com/aifivem/ai-inventory/compare/v0.5.0...v0.6.0) (2026-11-05)
 
 
