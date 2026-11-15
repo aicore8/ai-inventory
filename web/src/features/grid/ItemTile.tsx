@@ -136,7 +136,7 @@ export const ItemTile = memo(function ItemTile({
               draggable={false}
               className={cn(
                 "max-h-full max-w-full object-contain",
-                stack.rotated && "[transform:rotate(90deg)]",
+                stack.rotated && "rotate-90",
               )}
             />
           ) : (

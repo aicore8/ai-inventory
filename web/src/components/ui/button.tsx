@@ -6,7 +6,7 @@ import { cn } from "../../lib/utils";
 
 /** TGIANN pill buttons (docs/design.md): green `primary` for the view's one main action, grey `secondary` / `grey`, red `destructive`, round `icon`. */
 const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-[0.8vh] rounded-full px-[1.6vh] whitespace-nowrap transition-[background-color,color,transform] duration-150 ease-out enabled:active:[transform:scale(0.97)] disabled:cursor-not-allowed disabled:opacity-40",
+  "inline-flex items-center justify-center gap-[0.8vh] rounded-full px-[1.6vh] whitespace-nowrap transition-[background-color,color,transform,translate,scale,rotate] duration-150 ease-out enabled:active:scale-97 disabled:cursor-not-allowed disabled:opacity-40",
   {
     variants: {
       variant: {
@@ -17,7 +17,7 @@ const buttonVariants = cva(
         grey: "bg-white/6 font-medium text-text-3 enabled:hover:bg-white/12 enabled:hover:text-white",
         destructive:
           "bg-danger-bg font-medium text-danger enabled:hover:bg-danger-solid enabled:hover:text-white",
-        icon: "size-[3.2vh] bg-control px-0 text-[1.2vh] text-text-2 enabled:hover:bg-control-hover enabled:hover:text-white enabled:active:[transform:scale(0.9)]",
+        icon: "size-[3.2vh] bg-control px-0 text-[1.2vh] text-text-2 enabled:hover:bg-control-hover enabled:hover:text-white enabled:active:scale-90",
       },
       size: {
         md: "h-[3.6vh] text-[1.4vh]",

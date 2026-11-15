@@ -32,7 +32,7 @@ function EscClose() {
       type="button"
       aria-label={t("UI_CLOSE")}
       onClick={closeScreen}
-      className="group flex items-center gap-[1vh] rounded-full active:[transform:scale(0.96)]"
+      className="group flex items-center gap-[1vh] rounded-full active:scale-96"
     >
       <span className="text-[1.6vh] text-white/70 transition-colors duration-150 group-hover:text-white">
         {before}

@@ -55,7 +55,7 @@ export function Ghost() {
             alt=""
             className={cn(
               "max-h-full max-w-full object-contain",
-              state.rotated && "[transform:rotate(90deg)]",
+              state.rotated && "rotate-90",
             )}
           />
         ) : (
