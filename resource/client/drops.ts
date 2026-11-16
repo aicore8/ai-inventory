@@ -77,7 +77,13 @@ class Drops {
   private async spawn(point: DropPoint): Promise<void> {
     if (this.props.has(point.id)) return;
     const model = await requestModel(MODEL);
-    if (!this.points.has(point.id) || this.props.has(point.id)) return;
+    // Left the range (or the drop went) while the model loaded.
+    if (
+      !this.points.has(point.id) ||
+      this.props.has(point.id) ||
+      !this.zones.isInside(`${point.id}:show`)
+    )
+      return;
     const prop = CreateObjectNoOffset(
       model,
       point.x,
