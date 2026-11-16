@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.2](https://github.com/aifivem/ai-inventory/compare/v0.6.1...v0.6.2) (2026-11-16)
+
+
+### Bug Fixes
+
+* **inventory:** no drop prop when the player left its range while the model loaded ([662f7b6](https://github.com/aifivem/ai-inventory/commit/662f7b623e2455de06288dd85cabb7eccb5fb282))
+
 ## [0.6.1](https://github.com/aifivem/ai-inventory/compare/v0.6.0...v0.6.1) (2026-11-15)
 
 
