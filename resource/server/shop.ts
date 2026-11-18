@@ -1,4 +1,4 @@
-import { fail, readInt } from "@aifivem/lib/shared";
+import { fail, readInt } from "@aicore8/lib/shared";
 import {
   aiLog,
   coordsOf,
@@ -6,7 +6,7 @@ import {
   online,
   optionalExport,
   resourceExport,
-} from "@aifivem/lib/server";
+} from "@aicore8/lib/server";
 import { nearPlace } from "common/places";
 import { EVENTS, type ActionResult } from "common/events";
 import { content } from "./content";

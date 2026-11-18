@@ -6,8 +6,8 @@ import {
   loadLocaleTexts,
   medical,
   NuiScreen,
-} from "@aifivem/lib/client";
-import { NUI_LAYER } from "@aifivem/shared";
+} from "@aicore8/lib/client";
+import { NUI_LAYER } from "@aicore8/shared";
 import { EVENTS } from "common/events";
 import {
   type InventoryView,

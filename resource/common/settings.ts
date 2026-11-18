@@ -1,4 +1,4 @@
-import { int, record } from "@aifivem/lib/shared";
+import { int, record } from "@aicore8/lib/shared";
 
 export interface GridSize {
   rows: number;

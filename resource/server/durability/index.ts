@@ -1,5 +1,5 @@
-import { onClientCallback, registerExport } from "@aifivem/lib/server";
-import { oneArg, readInt } from "@aifivem/lib/shared";
+import { onClientCallback, registerExport } from "@aicore8/lib/server";
+import { oneArg, readInt } from "@aicore8/lib/shared";
 import { EVENTS } from "common/events";
 import { registerUsable } from "../use";
 import { getDurability, repairWeapon, setDurability } from "./api";

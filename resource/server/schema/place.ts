@@ -1,5 +1,5 @@
-import type { DataSpec, WidgetSpec } from "@aifivem/shared";
-import { ACCESS_FIELDS, accessFields, spec } from "@aifivem/lib/shared";
+import type { DataSpec, WidgetSpec } from "@aicore8/shared";
+import { ACCESS_FIELDS, accessFields, spec } from "@aicore8/lib/shared";
 import { text } from "./dataSpecs";
 
 /** The label, point, radius and access widgets of a shop, stash or bench. */

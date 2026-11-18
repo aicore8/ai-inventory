@@ -1,12 +1,12 @@
-import { VEHICLE_BAGS } from "@aifivem/shared";
-import { normalizePlate } from "@aifivem/lib/shared";
+import { VEHICLE_BAGS } from "@aicore8/shared";
+import { normalizePlate } from "@aicore8/lib/shared";
 import {
   EntityState,
   optionalExport,
   plateOf,
   stateBoolean,
   stateNumber,
-} from "@aifivem/lib/server";
+} from "@aicore8/lib/server";
 import { content } from "../content";
 import type { Inventory } from "../inventory/inventory";
 import { inventories } from "../registry/registry";

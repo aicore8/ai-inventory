@@ -1,4 +1,4 @@
-import type { RecordReader } from "@aifivem/lib/shared";
+import type { RecordReader } from "@aicore8/lib/shared";
 import { ItemList } from "./items";
 import {
   readBench,

@@ -1,4 +1,4 @@
-import type { DataSpec } from "@aifivem/shared";
+import type { DataSpec } from "@aicore8/shared";
 
 /** A text field of up to `max` characters. */
 export const text = (max: number, optional = false): DataSpec => ({

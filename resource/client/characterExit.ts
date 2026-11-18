@@ -1,5 +1,5 @@
-import { onServerEvent } from "@aifivem/lib/client";
-import { CORE } from "@aifivem/shared";
+import { onServerEvent } from "@aicore8/lib/client";
+import { CORE } from "@aicore8/shared";
 import { screen } from "./screen";
 import { weapons } from "./weapons";
 

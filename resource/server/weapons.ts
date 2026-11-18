@@ -1,5 +1,5 @@
-import { notify } from "@aifivem/lib/server";
-import { fail } from "@aifivem/lib/shared";
+import { notify } from "@aicore8/lib/server";
+import { fail } from "@aicore8/lib/shared";
 import { Locale } from "common";
 import { EVENTS, type ActionResult } from "common/events";
 import type { EquippedWeapon, Metadata, Stack } from "common/nui";

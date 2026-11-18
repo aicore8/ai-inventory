@@ -50,4 +50,4 @@ export const EVENTS = {
   repair: "ai-inventory:repair",
 } as const;
 
-export type { ActionResult } from "@aifivem/shared";
+export type { ActionResult } from "@aicore8/shared";

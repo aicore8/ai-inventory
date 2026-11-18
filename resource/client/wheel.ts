@@ -1,4 +1,4 @@
-import { controls } from "@aifivem/lib/client";
+import { controls } from "@aicore8/lib/client";
 import { content } from "./content";
 
 /** Weapon wheel (TAB), scroll and number-key weapon switching: off while the panel setting says so. */

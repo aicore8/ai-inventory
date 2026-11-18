@@ -1,5 +1,5 @@
-import type { CardSpec, DataSpec } from "@aifivem/shared";
-import { spec } from "@aifivem/lib/shared";
+import type { CardSpec, DataSpec } from "@aicore8/shared";
+import { spec } from "@aicore8/lib/shared";
 
 /** Settings section `durability`: weapon wear and the weapon repair kit (`common/settings.ts` reads it). */
 export const durabilitySpec: DataSpec = {

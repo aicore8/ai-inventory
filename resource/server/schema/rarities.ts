@@ -1,4 +1,4 @@
-import type { FileSpec, TabSpec } from "@aifivem/shared";
+import type { FileSpec, TabSpec } from "@aicore8/shared";
 import { KEY, text } from "./dataSpecs";
 
 export const raritiesFile: FileSpec = {

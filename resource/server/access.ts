@@ -1,4 +1,4 @@
-import { PlayerMap } from "@aifivem/lib/server";
+import { PlayerMap } from "@aicore8/lib/server";
 import { inventories } from "./registry/registry";
 import type { Inventory } from "./inventory/inventory";
 

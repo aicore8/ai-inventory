@@ -1,4 +1,4 @@
-import { callAction } from "@aifivem/lib/client";
+import { callAction } from "@aicore8/lib/client";
 import { EVENTS } from "common/events";
 import { content } from "./content";
 import { state } from "./state";

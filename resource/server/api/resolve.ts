@@ -1,4 +1,4 @@
-import { isRecord, normalizePlate } from "@aifivem/lib/shared";
+import { isRecord, normalizePlate } from "@aicore8/lib/shared";
 import type { Inventory } from "../inventory/inventory";
 import { inventories } from "../registry/registry";
 

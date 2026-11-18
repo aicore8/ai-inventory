@@ -1,5 +1,5 @@
-import { callAction, menu, onServerEvent } from "@aifivem/lib/client";
-import { isRecord } from "@aifivem/lib/shared";
+import { callAction, menu, onServerEvent } from "@aicore8/lib/client";
+import { isRecord } from "@aicore8/lib/shared";
 import { Locale } from "common";
 import { EVENTS } from "common/events";
 import type { RepairRow } from "common/nui";

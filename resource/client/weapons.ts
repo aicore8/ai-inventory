@@ -5,8 +5,8 @@ import {
   Keybind,
   onCache,
   onServerEvent,
-} from "@aifivem/lib/client";
-import { isRecord } from "@aifivem/lib/shared";
+} from "@aicore8/lib/client";
+import { isRecord } from "@aicore8/lib/shared";
 import { Locale } from "common";
 import { EVENTS } from "common/events";
 import type { EquippedWeapon } from "common/nui";

@@ -3,8 +3,8 @@ import {
   Keybind,
   nearestVehicle,
   onServerEvent,
-} from "@aifivem/lib/client";
-import { asArgs } from "@aifivem/lib/shared";
+} from "@aicore8/lib/client";
+import { asArgs } from "@aicore8/lib/shared";
 import { Locale } from "common";
 import { EVENTS } from "common/events";
 import { hotbarSlot } from "common/grid";

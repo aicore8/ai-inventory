@@ -1,4 +1,4 @@
-import type { CardSpec } from "@aifivem/shared";
+import type { CardSpec } from "@aicore8/shared";
 
 export const useCard: CardSpec = {
   icon: "hand-pointer",

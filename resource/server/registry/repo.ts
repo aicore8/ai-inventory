@@ -1,5 +1,5 @@
-import { createDatabaseTables } from "@aifivem/lib/server";
-import { mysql } from "@aifivem/mysql";
+import { createDatabaseTables } from "@aicore8/lib/server";
+import { mysql } from "@aicore8/mysql";
 import { ResourceName } from "common";
 import type { Metadata, Stack } from "common/nui";
 import { log } from "../log";

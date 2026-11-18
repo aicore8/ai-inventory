@@ -1,4 +1,4 @@
-import { asArgs, fail, readInt } from "@aifivem/lib/shared";
+import { asArgs, fail, readInt } from "@aicore8/lib/shared";
 import {
   aiLog,
   coordsOf,
@@ -6,7 +6,7 @@ import {
   onClientCallback,
   online,
   vehicleOf,
-} from "@aifivem/lib/server";
+} from "@aicore8/lib/server";
 import { EVENTS, type ActionResult } from "common/events";
 import { toMoveInput } from "common/nuiParsers";
 import { reachable } from "./access";

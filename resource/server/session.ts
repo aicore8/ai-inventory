@@ -1,4 +1,4 @@
-import { onCharacter, PlayerMap } from "@aifivem/lib/server";
+import { onCharacter, PlayerMap } from "@aicore8/lib/server";
 import { content } from "./content";
 import { drops } from "./drops";
 import { log } from "./log";

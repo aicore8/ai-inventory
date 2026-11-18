@@ -1,4 +1,4 @@
-import { round } from "@aifivem/lib/shared";
+import { round } from "@aicore8/lib/shared";
 import type { ItemDef } from "common/items";
 import type { Metadata } from "common/nui";
 import type { Durability } from "common/settings";

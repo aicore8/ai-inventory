@@ -1,4 +1,4 @@
-import type { ActionResult } from "@aifivem/shared";
+import type { ActionResult } from "@aicore8/shared";
 import type { ClothesState } from "./clothes";
 /** Wire and NUI contract of ai-inventory: shapes sent between server, client and the screen. No natives. */
 

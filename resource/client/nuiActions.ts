@@ -1,5 +1,5 @@
-import { callAction, nearestPlayer, notify } from "@aifivem/lib/client";
-import { fail, isRecord, readInt } from "@aifivem/lib/shared";
+import { callAction, nearestPlayer, notify } from "@aicore8/lib/client";
+import { fail, isRecord, readInt } from "@aicore8/lib/shared";
 import { Locale } from "common";
 import { EVENTS, type ActionResult } from "common/events";
 import { NUI } from "common/nui";

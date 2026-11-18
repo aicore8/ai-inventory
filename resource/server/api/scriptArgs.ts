@@ -1,4 +1,4 @@
-import { isRecord } from "@aifivem/lib/shared";
+import { isRecord } from "@aicore8/lib/shared";
 import type { Metadata } from "common/nui";
 
 /** A count from a script: whole (1 when missing or below 1); NaN and Infinity are refused (null). */
